@@ -1,0 +1,43 @@
+.title {
+   text-align: center;
+  color: rgb(247, 239, 91);
+  font-size: 50px;
+}
+
+
+
+.card {
+    padding: 2em;
+    background-color: rgb(247, 239, 91);
+
+    .action{
+      display:flex;
+      align-self: center;
+      justify-content: space-between;
+
+      .tools{
+        display: flex;
+        gap: 10px;
+
+        button{
+          background-color: rgb(43, 177, 226);
+          border: 1px solid rgb(43, 177, 226);
+          color: rgb(250, 250, 250);
+          transition: color 300ms linear, background-color 300ms linear;
+          
+          &:hover {
+            background-color: rgb(250, 250, 250);
+            color: rgb(43, 177, 226)
+          }
+        }
+      }
+    }
+    .editor{
+      width: 100%;
+      height: 200px;
+      resize: none;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
